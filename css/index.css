@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.cont{
+    background-color: #fbfbfb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+.cont form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.cont div{
+    background-color: rgb(255, 255, 255);
+    height: 80vh;
+    width: 35%;
+    border-radius: 15px;
+    box-shadow: 4px 0px 20px 0px rgb(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cont div form input[type="text"]{
+    margin-top: 2vh ;
+    height: 6vh;
+    width: 75%;
+    padding-left: 15px;
+    border: none;
+    border-bottom: 3px solid #0b42b0;
+    outline: none;
+    font-size: 16px;
+    background-color: #E8F0FE;
+}
+
+
+.contButton{
+    margin-top: 5vh ;
+    height: 5.5vh;
+    width: 25%;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #0b42b0;
+    color: #fff;
+}
+
+.cont div h1{ 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 2vh;
+    font-size: 36px;
+    color: #0b42b0;
+}
+
+
+.contNav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-bottom: 10vh;
+}
+
+.contNav a{
+   margin-left: 4%;
+}
+
+.contNav a button{
+    border: none;
+    background-color: transparent;
+}
+
+.contNav a button *{
+    color: #0b42b0;
+    height: 4vh;
+}
+
+.listar{
+    height: 51vh;
+    width: 90%;
+    margin-right: 5%;
+    overflow: auto;
+}
+
+
+
+.listar ul li{ 
+   margin-top: 2vh;
+   background-color: #E8F0FE;
+   list-style: none;
+   height: 17vh;
+   width: 100%;
+   padding: 5px;
+   display: flex;
+   flex-direction: column;
+}
+.listar ul li span{ 
+    margin-left: 15px;
+ }
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+.contL div{
+    background-color: rgb(255, 255, 255);
+    height: 80vh;
+    width: 35%;
+    border-radius: 15px;
+    box-shadow: 4px 0px 20px 0px rgb(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.contL{
+    background-color: #fbfbfb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
